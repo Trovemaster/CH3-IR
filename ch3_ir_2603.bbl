@@ -1,0 +1,611 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{67}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Miller \latin{et~al.}(1990)Miller, Kee, and Westbrook]{comb90}
+Miller,~J.~A.; Kee,~R.~J.; Westbrook,~C.~K. {Chemical Kinetics and Combustion
+  Modeling}. \emph{Annu. Rev. Phys. Chem.} \textbf{1990}, \emph{41},
+  345--387\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ravishankara(1988)]{atmo88}
+Ravishankara,~R. {Kinetics of radical reactions in the atmospheric oxidation of
+  CH$_4$}. \emph{Annu. Rev. Phys. Chem.} \textbf{1988}, \emph{39},
+  367--394\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jasinski \latin{et~al.}(1987)Jasinski, Meyerson, and Scott]{semi87}
+Jasinski,~J.~M.; Meyerson,~B.~S.; Scott,~B.~A. {Mechanistic Studies of Chemical
+  Vapor Deposition}. \emph{Annu. Rev. Phys. Chem.} \textbf{1987}, \emph{38},
+  109--140\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Celii and Butler(1991)Celii, and Butler]{diamond91}
+Celii,~F.~G.; Butler,~J.~E. {Diamond Chemical Vapor Deposition}. \emph{Annu.
+  Rev. Phys. Chem.} \textbf{1991}, \emph{42}, 643--684\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dmitriev and Dmitriev(2002)Dmitriev, and Dmitriev]{astro02}
+Dmitriev,~R. A.~Z.; Dmitriev,~Y.~A. {Detection of free radicals in
+  low-temperature gas-grain reactions of astrophysical interest}. \emph{Astron.
+  Astrophys.} \textbf{2002}, \emph{386}, 1129--1138\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Feuchtgruber \latin{et~al.}(1998)Feuchtgruber, Moses, and
+  Encrenaz]{astro98}
+Feuchtgruber,~H.; Moses,~J.~I.; Encrenaz,~T. {Detection of methyl radicals
+  CH$_3$ on Saturn}. \emph{Astron. Astrophys.} \textbf{1998}, \emph{44},
+  L41--L44\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[B{\'{e}}zard \latin{et~al.}(1999)B{\'{e}}zard, Romani, Feuchtgruber,
+  and Encrenaz]{astro99}
+B{\'{e}}zard,~B.; Romani,~P.~N.; Feuchtgruber,~H.; Encrenaz,~T. {Detection of
+  the Methyl Radical on Neptune}. \emph{Astrophys. J.} \textbf{1999},
+  \emph{515}, 868--872\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Feuchtgruber \latin{et~al.}(2000)Feuchtgruber, Helmich, van Dishoeck,
+  and Wright]{astro00}
+Feuchtgruber,~H.; Helmich,~F.; van Dishoeck,~E.~F.; Wright,~C.~M. {Detection of
+  Intersteller CH$_3$}. \emph{Astrophys. J.} \textbf{2000}, \emph{535},
+  L111--L114\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Settersten \latin{et~al.}(2003)Settersten, Farrow, and Gray]{xelec03}
+Settersten,~T.~B.; Farrow,~R.~L.; Gray,~J.~A. {Coherent infrared-ultraviolet
+  double-resonance spectroscopy of CH$_3$}. \emph{Chem. Phys. Lett.}
+  \textbf{2003}, \emph{370}, 204--210\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lefohn and Pimentel(1972)Lefohn, and Pimentel]{nu2_72}
+Lefohn,~A.~S.; Pimentel,~G.~C. {Infrared spectrum of Gaseous Methyl Radical by
+  Rapid Scan Spectroscopy}. \emph{J. Chem. Phys.} \textbf{1972}, \emph{57},
+  4028--4037\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Holt \latin{et~al.}(1984)Holt, McCurdy, Weisman, Adams, and
+  Engel]{nu1_84}
+Holt,~P.~L.; McCurdy,~K.~E.; Weisman,~R.~B.; Adams,~J.~S.; Engel,~P.~S.
+  {Transient CARS spectroscopy of the $\nu_1$ band of methyl radical}. \emph{J.
+  Chem. Phys.} \textbf{1984}, \emph{81}, 3349--3350\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kelly and Westre(1988)Kelly, and Westre]{nu1_88}
+Kelly,~P.~B.; Westre,~S.~G. {Resonance Raman spectroscopy of the methyl
+  radical}. \emph{Chem. Phys. Lett.} \textbf{1988}, \emph{151}, 253--257\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Triggs \latin{et~al.}(1992)Triggs, Zahedi, Nibler, DeBarber, and
+  Valentini]{nu1_92}
+Triggs,~N.~E.; Zahedi,~M.; Nibler,~J.~W.; DeBarber,~P.; Valentini,~J.~J. {High
+  resolution study of the $\nu_1$ vibration of CH$_3$ by coherent Raman
+  photofragment spectroscopy}. \emph{J. Chem. Phys.} \textbf{1992}, \emph{96},
+  1822--1831\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Zahedi \latin{et~al.}(1994)Zahedi, Harrison, and Nibler]{nu1_94}
+Zahedi,~M.; Harrison,~J.~A.; Nibler,~J.~W. {266 nm CH$_3$Iphotodissociation:
+  CH$_3$ spectra and population distributions by coherent Raman spectroscopy}.
+  \emph{J. Chem. Phys.} \textbf{1994}, \emph{100}, 4043--4055\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[H{\"{a}}drich \latin{et~al.}(1996)H{\"{a}}drich, Hefter, Pfelzer,
+  Doerk, Jauernik, and Uhlenbusch]{nu1_96}
+H{\"{a}}drich,~S.; Hefter,~S.; Pfelzer,~B.; Doerk,~T.; Jauernik,~P.;
+  Uhlenbusch,~J. {Determination of the absolute Raman cross section of methyl}.
+  \emph{Chem. Phys. Lett.} \textbf{1996}, \emph{256}, 83--86\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Westre and Kelly(1989)Westre, and Kelly]{dnu1_89a}
+Westre,~S.~G.; Kelly,~P.~B. {Examination of CD$_3$ vibrational structure by
+  resonance Raman spectroscopy}. \emph{J. Chem. Phys.} \textbf{1989},
+  \emph{90}, 6977--6979\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Miller \latin{et~al.}(1989)Miller, Burton, Weisman, Wu, and
+  Engel]{dnu1_89b}
+Miller,~J.~T.; Burton,~K.~A.; Weisman,~R.~B.; Wu,~W.~X.; Engel,~P.~S. {CARS
+  spectroscopy of gas phase CD$_3$}. \emph{Chem. Phys. Lett.} \textbf{1989},
+  \emph{158}, 179--183\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Adam \latin{et~al.}(2015)Adam, Yachmenev, Yurchenko, and Jensen]{aa15}
+Adam,~A.~Y.; Yachmenev,~A.; Yurchenko,~S.~N.; Jensen,~P. {Ro-vibrational
+  averaging of the isotropic hyperfine coupling constant for the methyl
+  radical}. \emph{J. Chem. Phys.} \textbf{2015}, \emph{143}, 244306/1--7\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tennyson and Yurchenko(2012)Tennyson, and Yurchenko]{jt528}
+Tennyson,~J.; Yurchenko,~S.~N. {ExoMol: molecular line lists for exoplanet and
+  other atmospheres}. \emph{Monthly Notices of the Royal Astronomical Society}
+  \textbf{2012}, \emph{425}, 21--33\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tennyson \latin{et~al.}(2016)Tennyson, Yurchenko, Al-Refaie, Barton,
+  Chubb, Coles, Diamantopoulou, Gorman, Hill, Lam, Lodi, McKemmish, Na, Owens,
+  Polyansky, Rivlin, Sousa-Silva, Underwood, Yachmenev, and Zak]{exomol}
+Tennyson,~J. \latin{et~al.}  {The ExoMol database: molecular line lists for
+  exoplanet and other hot atmospheres}. \emph{J. Mol. Spectrosc.}
+  \textbf{2016}, \emph{327}, 73--94\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko and Tennyson(2014)Yurchenko, and Tennyson]{jt564}
+Yurchenko,~S.~N.; Tennyson,~J. {ExoMol line lists IV: The rotation-vibration
+  spectrum of methane up to 1500 K}. \emph{Monthly Notices of the Royal
+  Astronomical Society} \textbf{2014}, \emph{440}, 1649--1661\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2009)Yurchenko, Barber, Yachmenev, Thiel,
+  Jensen, and Tennyson]{nh3_09}
+Yurchenko,~S.~N.; Barber,~R.~J.; Yachmenev,~A.; Thiel,~W.; Jensen,~P.;
+  Tennyson,~J. {A Variationally computed T=300 K line list for NH$_3$}.
+  \emph{J. Phys. Chem. A} \textbf{2009}, \emph{113}, 11845--11855\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sousa-Silva \latin{et~al.}(2014)Sousa-Silva, Hesketh, Yurchenko, Hill,
+  and Tennyson]{jt571}
+Sousa-Silva,~C.; Hesketh,~N.; Yurchenko,~S.~N.; Hill,~C.; Tennyson,~J. {High
+  Temperature partition functions and thermodynamic data for ammonia and
+  phosphine}. \emph{Journal of Quantitative Spectroscopy \&\ Radiative
+  Transfer} \textbf{2014}, \emph{142}, 66--74\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Sousa-Silva \latin{et~al.}(2015)Sousa-Silva, Al-Refaie, Tennyson, and
+  Yurchenko]{jt592}
+Sousa-Silva,~C.; Al-Refaie,~A.~F.; Tennyson,~J.; Yurchenko,~S.~N. {ExoMol} line
+  lists - {VII}. The rotation-vibration spectrum of phosphine up to 1500 {K}.
+  \emph{Monthly Notices of the Royal Astronomical Society} \textbf{2015},
+  \emph{446}, 2337--2347\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Underwood \latin{et~al.}(2014)Underwood, Yurchenko, Tennyson, and
+  Jensen]{jt580}
+Underwood,~D.~S.; Yurchenko,~S.~N.; Tennyson,~J.; Jensen,~P. {Rotational
+  spectrum of SO$_3$ and a theoretical evidence for the formation of
+  rotational, energy level clusters in its vibrational ground state}. \emph{J.
+  Chem. Phys.} \textbf{2014}, \emph{140}, 244316/1--10\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Underwood \latin{et~al.}(2016)Underwood, Tennyson, Yurchenko, Clausen,
+  and Fateev]{jt641}
+Underwood,~D.~S.; Tennyson,~J.; Yurchenko,~S.~N.; Clausen,~S.; Fateev,~A.
+  {ExoMol line lists XVII: A line list for hot SO$_3$}. \emph{Monthly Notices
+  of the Royal Astronomical Society} \textbf{2016}, \emph{462},
+  4300--4313\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Al-Refaie \latin{et~al.}(2015)Al-Refaie, Yurchenko, Yachmenev, and
+  Tennyson]{jt597}
+Al-Refaie,~A.~F.; Yurchenko,~S.~N.; Yachmenev,~A.; Tennyson,~J. {ExoMol line
+  lists - VIII: A variationally computed line list for hot formaldehyde}.
+  \emph{Monthly Notices of the Royal Astronomical Society} \textbf{2015},
+  \emph{448}, 1704--1714\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Owens \latin{et~al.}(2015)Owens, Yurchenko, Yachmenev, Tennyson, and
+  Thiel]{jt612}
+Owens,~A.; Yurchenko,~S.~N.; Yachmenev,~A.; Tennyson,~J.; Thiel,~W. {Accurate
+  {\it ab initio} vibrational energies of methyl chloride}. \emph{J. Chem.
+  Phys.} \textbf{2015}, \emph{142}, 244306/1--10\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Owens \latin{et~al.}(2017)Owens, Yurchenko, Yachmenev, Thiel, and
+  Tennyson]{jt701}
+Owens,~A.; Yurchenko,~S.~N.; Yachmenev,~A.; Thiel,~W.; Tennyson,~J. {ExoMol
+  molecular line lists XXII. The rotation-vibration spectrum of silane up to
+  1200\,K}. \emph{Monthly Notices of the Royal Astronomical Society}
+  \textbf{2017}, \emph{471}, 5025--5032\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Al-Refaie \latin{et~al.}(2015)Al-Refaie, Ovsyannikov, Polyansky,
+  Yurchenko, and Tennyson]{jt620}
+Al-Refaie,~A.~F.; Ovsyannikov,~R.~I.; Polyansky,~O.~L.; Yurchenko,~S.~N.;
+  Tennyson,~J. {A variationally calculated room temperature line-list for
+  H$_{2}$O$_{2}$}. \emph{J. Mol. Spectrosc.} \textbf{2015}, \emph{318},
+  84--90\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Al-Refaie \latin{et~al.}(2016)Al-Refaie, Polyansky, I., Ovsyannikov,
+  Tennyson, and Yurchenko]{jt638}
+Al-Refaie,~A.~F.; Polyansky,~O.~L.; I.,~R.; Ovsyannikov,; Tennyson,~J.;
+  Yurchenko,~S.~N. {ExoMol line lists XV: A hot line-list for hydrogen
+  peroxide}. \emph{Monthly Notices of the Royal Astronomical Society}
+  \textbf{2016}, \emph{461}, 1012--1022\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Chubb \latin{et~al.}(2018)Chubb, Yachmenev, Tennyson, and
+  Yurchenko]{jtlinTROVE}
+Chubb,~K.~L.; Yachmenev,~A.; Tennyson,~J.; Yurchenko,~S.~N. {Treating linear
+  molecule HCCH in calculations of rotation-vibration spectra}. \emph{The
+  Journal of Chemical Physics} \textbf{2018}, \emph{149}, 014101/1--17\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mant \latin{et~al.}(2018)Mant, Yachmenev, Tennyson, and
+  Yurchenko]{jt729}
+Mant,~B.~P.; Yachmenev,~A.; Tennyson,~J.; Yurchenko,~S.~N. {ExoMol molecular
+  line lists - XXVII: spectra of C$_2$H$_4$}. \emph{Monthly Notices of the
+  Royal Astronomical Society} \textbf{2018}, \emph{478}, 3220--3232\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bunker and Jensen(1998)Bunker, and Jensen]{mss}
+Bunker,~P.~R.; Jensen,~P. \emph{{Molecular Symmetry and Spectroscopy}}, 2nd
+  ed.; NRC Research Press: Ottawa, 1998; p 748\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hudgens \latin{et~al.}(1983)Hudgens, DiGiuseppe, and Lin]{xelec83}
+Hudgens,~J.~W.; DiGiuseppe,~T.~G.; Lin,~M.~C. {Two photon resonance enhanced
+  multiphoton ionization spectroscopy and state assignments of the methyl
+  radical}. \emph{J. Chem. Phys.} \textbf{1983}, \emph{79}, 571--582\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yamada and Hirota(1983)Yamada, and Hirota]{mu2_83}
+Yamada,~C.; Hirota,~E. {The transition dipole moment of the $\nu_2$ band of the
+  methyl radical}. \emph{J. Chem. Phys.} \textbf{1983}, \emph{78},
+  669--671\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wormhoudt and McCurdy(1989)Wormhoudt, and McCurdy]{mu2_89}
+Wormhoudt,~J.; McCurdy,~K.~E. {A measurement of the strength of the $\nu_2$
+  band of CH$_3$}. \emph{Chem. Phys. Lett.} \textbf{1989}, \emph{156},
+  47--50\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stancu \latin{et~al.}(2005)Stancu, R{\"{o}}pcke, and Davies]{mu2_05}
+Stancu,~G.~D.; R{\"{o}}pcke,~J.; Davies,~P.~B. {Line strengths and transition
+  dipole moment of the $\nu_2$ fundamental band of the methyl radical}.
+  \emph{J. Chem. Phys.} \textbf{2005}, \emph{122}, 014306/1--11\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Stancu \latin{et~al.}(2008)Stancu, R{\"{o}}pcke, and Davies]{mu2_08}
+Stancu,~G.~D.; R{\"{o}}pcke,~J.; Davies,~P.~B. {Measurement of the Transition
+  Dipole Moment of the First Hot Band of the $\nu_2$ Mode of the Methyl Radical
+  by Diode Laser Spectroscopy}. \emph{J. Phys. Chem. A} \textbf{2008},
+  \emph{112}, 6285--6288\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2005)Yurchenko, Carvajal, Jensen, Lin, Zheng,
+  and Thiel]{trove05}
+Yurchenko,~S.~N.; Carvajal,~M.; Jensen,~P.; Lin,~H.; Zheng,~J.; Thiel,~W.
+  {Rotation–vibration motion of pyramidal XY3 molecules described in the
+  Eckart frame: Theory and application to NH$_3$}. \emph{Mol. Phys.}
+  \textbf{2005}, \emph{103}, 359--378\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2007)Yurchenko, Thiel, and Jensen]{trove07}
+Yurchenko,~S.~N.; Thiel,~W.; Jensen,~P. {Theoretical ROVibrational Energies
+  (TROVE): A robust numerical approach to the calculation of rovibrational
+  energies for polyatomic molecules}. \emph{J. Mol. Spectrosc.} \textbf{2007},
+  \emph{245}, 126--140\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yachmenev and Yurchenko(2015)Yachmenev, and Yurchenko]{trove15}
+Yachmenev,~A.; Yurchenko,~S.~N. {Automatic differentiation method for numerical
+  construction of the rotational-vibrational Hamiltonian as a power series in
+  the curvilinear internal coordinates using the Eckart frame}. \emph{J. Chem.
+  Phys.} \textbf{2015}, \emph{143}, 014105/1--16\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2017)Yurchenko, Yachmenev, and
+  Ovsyannikov]{trove17a}
+Yurchenko,~S.~N.; Yachmenev,~A.; Ovsyannikov,~R.~I. {Symmetry-Adapted
+  Ro-vibrational Basis Functions for Variational Nuclear Motion Calculations:
+  TROVE Approach}. \emph{J. Chem. Theory Comput.} \textbf{2017}, \emph{13},
+  4368--4381\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Adler \latin{et~al.}(2007)Adler, Knizia, and Werner]{adler07}
+Adler,~T.~B.; Knizia,~G.; Werner,~H.-J. {A simple and efficient CCSD(T)-F12
+  approximation}. \emph{J. Chem. Phys.} \textbf{2007}, \emph{127},
+  221106/1--4\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Adler and Werner(2009)Adler, and Werner]{adler09}
+Adler,~T.~B.; Werner,~H.-J. {Local explicitly correlated coupled-cluster
+  methods: Efficient removal of the basis set incompleteness and domain
+  errors}. \emph{J. Chem. Phys.} \textbf{2009}, \emph{130}, 241101/1--5\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peterson \latin{et~al.}(2008)Peterson, Adler, and Werner]{peterson08}
+Peterson,~K.~A.; Adler,~T.~B.; Werner,~H.-J. Systematically convergent basis
+  sets for explicitly correlated wavefunctions: {The atoms H, He, B-Ne, and
+  Al-Ar}. \emph{J. Chem. Phys.} \textbf{2008}, \emph{128}, 084102/1--12\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Lin \latin{et~al.}(2002)Lin, Thiel, Yurchenko, Carvajal, and
+  Jensen]{nh3_02}
+Lin,~H.; Thiel,~W.; Yurchenko,~S.~N.; Carvajal,~M.; Jensen,~P. {Vibrational
+  energies for {NH}$_3$ based on high level ab initio potential energy
+  surfaces}. \emph{J. Chem. Phys.} \textbf{2002}, \emph{117},
+  11265--11276\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Werner \latin{et~al.}(2012)Werner, Knowles, Knizia, Manby, and
+  Sch{\"{u}}tz]{molpro12}
+Werner,~H.~J.; Knowles,~P.~J.; Knizia,~G.; Manby,~F.~R.; Sch{\"{u}}tz,~M.
+  {Molpro: A general-purpose quantum chemistry program package}. \emph{Wiley
+  Interdisciplinary Reviews: Computational Molecular Science} \textbf{2012},
+  \emph{2}, 242--253\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Watts \latin{et~al.}(1993)Watts, Gauss, and Bartlett]{watts}
+Watts,~J.~D.; Gauss,~J.; Bartlett,~R.~J. Coupled-cluster methods with
+  noniterative triple excitations for restricted open-shell
+  Hartree{\textendash}Fock and other general single determinant reference
+  functions. Energies and analytical gradients. \emph{J. Chem. Phys.}
+  \textbf{1993}, \emph{98}, 8718--8733\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Dunning(1989)]{dunning}
+Dunning,~T.~H. Gaussian basis sets for use in correlated molecular
+  calculations. {I. T}he atoms boron through neon and hydrogen. \emph{J. Chem.
+  Phys.} \textbf{1989}, \emph{90}, 1007--1023\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kendall \latin{et~al.}(1992)Kendall, {Dunning,~Jr.}, and
+  Harrison]{kendall}
+Kendall,~R.~A.; {Dunning,~Jr.},~T.~H.; Harrison,~R.~J. Electron affinities of
+  the first-row atoms revisited. {S}ystematic basis sets and wave functions.
+  \emph{J. Chem. Phys.} \textbf{1992}, \emph{96}, 6796--6806\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2005)Yurchenko, Carvajal, Lin, Zheng, Thiel,
+  and Jensen]{nh3_05}
+Yurchenko,~S.~N.; Carvajal,~M.; Lin,~H.; Zheng,~J.; Thiel,~W.; Jensen,~P.
+  {Dipole moment and rovibrational intensities in the electronic ground state
+  of NH$_3$: Bridging the gap between ab initio theory and spectroscopic
+  experiment}. \emph{J. Chem. Phys.} \textbf{2005}, \emph{122},
+  104317/1--14\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2005)Yurchenko, Thiel, Carvajal, Lin, and
+  Jensen]{dipole05}
+Yurchenko,~S.~N.; Thiel,~W.; Carvajal,~M.; Lin,~H.; Jensen,~P.
+  {Rotation-Vibration Motion of Pyramidal XY3 Molecules Described in the Eckart
+  Frame: The Calculation of Intensities with Application to NH$_3$}. \emph{Adv.
+  Quantum Chem.} \textbf{2005}, \emph{48}, 209--238\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bunker and Jensen(2004)Bunker, and Jensen]{fms}
+Bunker,~P.~R.; Jensen,~P. \emph{{The Fundamentals of Molecular Symmetry}}, 1st
+  ed.; CRC Press: Boca Raton, 2004; p 358\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[{\v{S}}pirko and Bunker(1982){\v{S}}pirko, and Bunker]{nu2_82c}
+{\v{S}}pirko,~V.; Bunker,~P.~R. {The potential function and rotation-vibration
+  energy levels of the methyl radical CH3}. \emph{J. Mol. Spectrosc.}
+  \textbf{1982}, \emph{95}, 381--390\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Davis \latin{et~al.}(1997)Davis, Anderson, Duxbury, and
+  Nesbitt]{nu3_97b}
+Davis,~S.; Anderson,~D.~T.; Duxbury,~G.; Nesbitt,~D.~J. {Jet-cooled molecular
+  radicals in slit supersonic discharges: Sub-Doppler infrared studies of
+  methyl radical}. \emph{J. Chem. Phys.} \textbf{1997}, \emph{107},
+  5661--5675\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Al-Refaie \latin{et~al.}(2017)Al-Refaie, Yurchenko, and
+  Tennyson]{17AlYuTe}
+Al-Refaie,~A.~F.; Yurchenko,~S.~N.; Tennyson,~J. {GPU Accelerated INtensities
+  MPI GAIN-MPI: A new method of computing Einstein-A coefficients}.
+  \emph{Comput. Phys. Commun.} \textbf{2017}, \emph{214}, 216--224\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Ovsyannikov \latin{et~al.}(2008)Ovsyannikov, Thiel, Yurchenko,
+  Carvajal, and Jensen]{ph3_08}
+Ovsyannikov,~R.~I.; Thiel,~W.; Yurchenko,~S.~N.; Carvajal,~M.; Jensen,~P.
+  {Vibrational energies of PH$_3$ calculated variationally at the complete
+  basis set limit}. \emph{J. Chem. Phys.} \textbf{2008}, \emph{129},
+  044309/1--8\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yamada \latin{et~al.}(1981)Yamada, Hirota, and Kawaguchi]{nu2_81}
+Yamada,~C.; Hirota,~E.; Kawaguchi,~K. {Diode laser study of the $\nu_2$ band of
+  the methyl radical}. \emph{J. Chem. Phys.} \textbf{1981}, \emph{75},
+  5256--5264\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Jacox(2005)]{nu4_94}
+Jacox,~M.~E. \emph{{Vibrational and Electronic Energy Levels of Polyatomic
+  Transient Molecules . Supplement B}}; American Chemical Society: New York,
+  2005; Vol.~1\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bethardy and Macdonald(1995)Bethardy, and Macdonald]{mu3_95}
+Bethardy,~G.~A.; Macdonald,~R.~G. {Direct measurement of the transition dipole
+  moment of the $\nu_3$ asymmetric C-H stretching vibration of the CH$_3$
+  radical}. \emph{J. Chem. Phys.} \textbf{1995}, \emph{103}, 2863--2872\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tanarro \latin{et~al.}(1994)Tanarro, Sanz, Domingo, Bermejo, Santos,
+  and Domenech]{mu3_94}
+Tanarro,~I.; Sanz,~M.~M.; Domingo,~C.; Bermejo,~D.; Santos,~J.; Domenech,~J.~L.
+  {Transition Dipole Moment of the $\nu_3$ Band of CH$_3$}. \emph{J. Phys.
+  Chem.} \textbf{1994}, \emph{98}, 5862--5866\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Yurchenko \latin{et~al.}(2018)Yurchenko, Al-Refaie, and
+  Tennyson]{exocross}
+Yurchenko,~S.~N.; Al-Refaie,~A.~F.; Tennyson,~J. {ExoCross: a general program
+  for generating spectra from molecular line lists}. \emph{Astron. Astrophys.}
+  \textbf{2018}, \emph{614}, A131/1--12\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hermann and Leone(1982)Hermann, and Leone]{nu2_82a}
+Hermann,~H.~W.; Leone,~S.~R. {Photofragment infrared emission spectroscopy:
+  Vibrational progression and potential parameters of the CH$_3$($\nu_2$)
+  ‘‘umbrella'' mode}. \emph{J. Chem. Phys.} \textbf{1982}, \emph{76},
+  4759--4765\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hermann and Leone(1982)Hermann, and Leone]{nu2_82b}
+Hermann,~H.~W.; Leone,~S.~R. {Photofragmentation dynamics of CH$_3$I at 248 and
+  266 nm: Vibrational distributions in the CH$_3$($\nu_2$) ‘‘umbrella''
+  mode}. \emph{J. Chem. Phys.} \textbf{1982}, \emph{76}, 4766--4774\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Adam \latin{et~al.}(2019)Adam, Yachmenev, Yurchenko, and
+  Jensen]{19AdYaYu.zenodo}
+Adam,~A.~Y.; Yachmenev,~A.; Yurchenko,~S.~N.; Jensen,~P. Supplementary
+  material: A variationally computed IR line list for the methyl radical CH3.
+  2019; {Zenodo}.~https://doi.org/10.5281/zenodo.2607732\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
